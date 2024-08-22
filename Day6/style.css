@@ -1,0 +1,111 @@
+header{
+    background-color: white;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    top: 0px;
+    color: blue;
+    letter-spacing:2px;
+}
+body{
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.parent{
+    width: 100%;
+    height: 80vh;
+    background-image: url(hamburger.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.child{
+    font-size: xx-large;
+    color: rgb(76, 21, 21);
+    margin: 0px 0px 40px 40px;
+}
+img{
+    width: 40vw;
+    height: 80vh;
+}
+.container{
+    display: flex;
+    padding: 60px;
+    gap: 50px;
+    
+}
+.about{
+    font-size: xx-large;
+    padding: 10px 80px 30px;
+}
+.letterspace{
+    letter-spacing: 5px;
+    padding: 10px 80px 30px;
+}
+.text{
+    font-size: large;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+.textcolor{
+    font-size: large;
+    color: grey;
+    line-height: 30px;
+}
+.menu{
+    font-size: xx-large;
+    padding: 0px 0px 40px 250px;
+}
+.spacing{
+    letter-spacing: 5px;
+    padding: 10px 80px 10px 30px;
+    font-size: 20px;
+
+}
+.font{
+    font-size: medium;
+    color: grey;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+.Contact{
+    font-size:xx-large;
+    letter-spacing: 3px;
+    padding: 40px 0px 40px 50px;
+}
+.content{
+   padding-bottom: 40px;
+   padding-left: 50px;
+}
+.lightshade{
+    font-weight: 800;
+    color: rgb(106, 51, 51);
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.msg:hover{
+    color:blue;
+
+}
+input{
+    width: 100%;
+    padding: 20px 0px 40px 30px;
+    margin-left: 60px;
+
+}
+.msge{
+    padding: 10px;
+    width: 125px;
+    border: 1px solid black;
+    margin-left: 60px;
+}
+footer{
+    text-align: center;
+    font-weight: 800;
+}
